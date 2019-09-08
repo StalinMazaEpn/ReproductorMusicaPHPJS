@@ -1,0 +1,45 @@
+*{
+    outline: none;
+}
+h1{
+    text-align: center;
+}
+small{
+    display: block;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.container_fixed{
+    background: #2d9dde;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    /* margin-bottom: 4rem; */
+}
+
+.music_songs{
+    padding-top: 8rem;
+}
+
+td{
+    cursor: pointer;
+}
+
+#audio{
+    width: 100%;
+}
+
+.reproductor_main{
+    background: #2d9dde;
+    padding: .5rem;
+    border-radius: 10px;
+    width: 70px;
+    color: white;
+}
+.reproductor_main:hover{
+    transform: scale(1.2);
+}
